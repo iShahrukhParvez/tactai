@@ -1,0 +1,67 @@
+html,body{
+    color: #A65DB2;
+}
+
+input, select, textarea{
+    color: #ff0000;
+}
+
+::placeholder{
+    color:#A65DB2;
+    opacity: 1;
+}
+
+.container{
+    height: fit-content;
+}
+
+hr{
+    border: 1px solid #A65DB2;
+    border-radius: 100%;
+}
+
+.heading{
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding: 10px ;
+    color: black;
+    
+
+}
+
+p{
+    display: inline;
+    color: #F05C25;
+}
+
+.inputForm{
+    height: fit-content;
+    padding: 2%;
+    padding-top: 3%;
+    border-radius: 50px;
+    box-shadow: 0px 0px 20px #A65DB2;
+}
+
+.inputForm h1{
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color:#A65DB2;
+}
+
+.btn{
+    width: 30%;
+    background-color: #A65DB2;
+    color: white;
+    border-radius: 50px;
+}
+
+.btn:hover{
+    color: white;
+    background-color: #7d228c;
+}
+
+.registerBtn{
+    width: 70%;
+}
